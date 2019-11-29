@@ -8,11 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "React/RCTBridgeModule.h"
+#import "React/RCTEventEmitter.h"
 
 
-@interface RCT_EXTERN_REMAP_MODULE(Message, Message, NSObject)
+@interface RCT_EXTERN_MODULE(Message, RCTEventEmitter)
 RCT_EXTERN_METHOD(
                   getUnreadCount: (RCTPromiseResolveBlock)resolve
                   rejecter: (RCTPromiseRejectBlock)reject
                   )
+RCT_EXTERN_METHOD(startListening)
+RCT_EXTERN_METHOD(stopListening)
 @end

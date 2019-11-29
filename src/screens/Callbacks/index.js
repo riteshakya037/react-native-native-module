@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import Message from '../../links/Message';
+import {getUnreadCount} from '../../links/Message';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
@@ -18,7 +18,7 @@ class CallbacksScreen extends Component {
 
   componentDidMount() {
     this.setState({loading: true});
-    Message.getUnreadCount().then(count => {
+    getUnreadCount().then(count => {
       this.setState({
         count,
         loading: false,

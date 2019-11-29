@@ -143,11 +143,19 @@
 			name = linktest;
 			sourceTree = "<group>";
 		};
-		1ED72A1323912E3E005FB636 /* Modules */ = {
+		1E522EC02391506100C9F252 /* Message */ = {
 			isa = PBXGroup;
 			children = (
 				1ED72A1523912E60005FB636 /* Message.swift */,
 				1ED72A1723912F86005FB636 /* MessageModule.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		1ED72A1323912E3E005FB636 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1E522EC02391506100C9F252 /* Message */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
