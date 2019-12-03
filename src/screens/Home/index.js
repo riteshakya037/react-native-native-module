@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {View, Button} from 'react-native';
+import {navigateTo} from '../../links/Navigation';
 
 class HomeScreen extends Component {
   static navigationOptions = {
@@ -20,7 +21,16 @@ class HomeScreen extends Component {
     navigate('Events');
   };
 
-  navigateToNativeScreen = () => {};
+  navigateToForwardScreen = () => {
+    const {
+      navigation: {navigate},
+    } = this.props;
+    navigate('Forward');
+  };
+
+  navigateToNativeScreen = () => {
+    navigateTo('NativeDemo');
+  };
 
   render() {
     return (
@@ -41,6 +51,10 @@ class HomeScreen extends Component {
         <Button
           title="Testing Native Navigation"
           onPress={this.navigateToNativeScreen}
+        />
+        <Button
+          title="Testing Forward Navigation"
+          onPress={this.navigateToForwardScreen}
         />
       </View>
     );

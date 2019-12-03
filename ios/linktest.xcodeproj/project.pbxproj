@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* linktestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* linktestTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1E1554EB2396441200D4E396 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1554EA2396441200D4E396 /* Navigation.swift */; };
+		1E1554F02396450E00D4E396 /* NativeDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1554EF2396450E00D4E396 /* NativeDemoViewController.xib */; };
+		1E1554F22396452200D4E396 /* NativeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1554F12396452200D4E396 /* NativeDemoViewController.swift */; };
+		1E1554F42396463300D4E396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1554F32396463300D4E396 /* AppDelegate.swift */; };
+		1E1554F62396475400D4E396 /* NavigationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1554F52396475400D4E396 /* NavigationModule.m */; };
 		1ED72A1623912E60005FB636 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED72A1523912E60005FB636 /* Message.swift */; };
 		1ED72A1823912F86005FB636 /* MessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED72A1723912F86005FB636 /* MessageModule.m */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* linktestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* linktestTests.m */; };
 		494636B8399949B28097CD17 /* libPods-linktestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CDB63F0E5EC616B0DE3668 /* libPods-linktestTests.a */; };
 		A037805FB55A1ED14CAD7AED /* libPods-linktest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FA7FB8DE47A423EA5EF0F6 /* libPods-linktest.a */; };
@@ -47,12 +48,14 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* linktestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linktestTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* linktest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linktest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = linktest/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = linktest/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = linktest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = linktest/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = linktest/main.m; sourceTree = "<group>"; };
+		1E1554EA2396441200D4E396 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		1E1554EF2396450E00D4E396 /* NativeDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeDemoViewController.xib; sourceTree = "<group>"; };
+		1E1554F12396452200D4E396 /* NativeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeDemoViewController.swift; sourceTree = "<group>"; };
+		1E1554F32396463300D4E396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E1554F52396475400D4E396 /* NavigationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationModule.m; sourceTree = "<group>"; };
 		1ED72A1423912E60005FB636 /* linktest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linktest-Bridging-Header.h"; sourceTree = "<group>"; };
 		1ED72A1523912E60005FB636 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1ED72A1723912F86005FB636 /* MessageModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageModule.m; sourceTree = "<group>"; };
@@ -130,17 +133,34 @@
 		13B07FAE1A68108700A75B9A /* linktest */ = {
 			isa = PBXGroup;
 			children = (
+				1E1554EC239644E500D4E396 /* NativeDemo */,
 				1ED72A1323912E3E005FB636 /* Modules */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
 				1ED72A1423912E60005FB636 /* linktest-Bridging-Header.h */,
+				1E1554F32396463300D4E396 /* AppDelegate.swift */,
 			);
 			name = linktest;
+			sourceTree = "<group>";
+		};
+		1E1554E9239643F900D4E396 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1E1554EA2396441200D4E396 /* Navigation.swift */,
+				1E1554F52396475400D4E396 /* NavigationModule.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1E1554EC239644E500D4E396 /* NativeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E1554EF2396450E00D4E396 /* NativeDemoViewController.xib */,
+				1E1554F12396452200D4E396 /* NativeDemoViewController.swift */,
+			);
+			path = NativeDemo;
 			sourceTree = "<group>";
 		};
 		1E522EC02391506100C9F252 /* Message */ = {
@@ -155,6 +175,7 @@
 		1ED72A1323912E3E005FB636 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1E1554E9239643F900D4E396 /* Navigation */,
 				1E522EC02391506100C9F252 /* Message */,
 			);
 			name = Modules;
@@ -364,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1E1554F02396450E00D4E396 /* NativeDemoViewController.xib in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,9 +577,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				1ED72A1823912F86005FB636 /* MessageModule.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				1E1554F62396475400D4E396 /* NavigationModule.m in Sources */,
+				1E1554F22396452200D4E396 /* NativeDemoViewController.swift in Sources */,
+				1E1554EB2396441200D4E396 /* Navigation.swift in Sources */,
+				1E1554F42396463300D4E396 /* AppDelegate.swift in Sources */,
 				1ED72A1623912E60005FB636 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,8 +590,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

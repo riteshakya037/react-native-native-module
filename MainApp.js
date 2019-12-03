@@ -1,8 +1,8 @@
 import React from 'react';
 import Routers from './src/screens/routers';
 
-const App = () => {
+const MainApp = () => {
   return <Routers />;
 };
 
-export default App;
+export default MainApp;

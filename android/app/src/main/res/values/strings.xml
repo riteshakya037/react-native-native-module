@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">linktest</string>
+    <string name="title_activity_native_demo">NativeDemo</string>
 </resources>
